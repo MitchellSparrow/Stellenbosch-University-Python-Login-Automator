@@ -25,22 +25,30 @@ Download the [chromedriver](http://chromedriver.chromium.org/), unzip the folder
 
 The following file takes arguments as an input, this means that when you run the file you will need to provide one of the following commands:
 
-learn       - to launch Sunlearn in a new tab in chrome
+### 1.) learn 
+To launch Sunlearn in a new tab in chrome
 
-ilearn      - to launch Inetkey and Sunlearn in seporate tabs in chrome
+### 2.) ilearn      
+To launch Inetkey and Sunlearn in seporate tabs in chrome
 
-i           - to launch AND sign into Inetkey using the "Chrome Driver", then MINIMIZE this window
+### 3.) i           
+To launch AND sign into Inetkey using the "Chrome Driver", then MINIMIZE this window
 
-l           - to launch AND sign into Sunlearn using the "Chrome Driver", then MAXIMIZE this window
+### 4.) l           
+To launch AND sign into Sunlearn using the "Chrome Driver", then MAXIMIZE this window
 
-il          - to launch AND sign into Inetkey AND Sunlearn using the "Chrome Driver", then MAXIMIZE this window
+### 5.) il          
+To launch AND sign into Inetkey AND Sunlearn using the "Chrome Driver", then MAXIMIZE this window
 
+The following is an example of how to run this python file:
 
 ```bash
-python myinternet.py 
+python myinternet.py learn
 ```
 
-Replace the following lines with your username and password. It is recommended that you rather create and utilize a private, secure file where this sensitive information is stored and then import these values from that file. 
+### When using the chromedriver commands such as "i" or "il":
+
+Replace the following lines below with your username and password. It is however recommended that you rather create and utilize a private, secure file where this sensitive information is stored and then import these values from that file. 
 
 ```python
 username = "username"  # Enter your username here
