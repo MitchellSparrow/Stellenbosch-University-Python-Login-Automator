@@ -18,7 +18,7 @@ pip install selenium
 
 ### Step 3:
 
-Download the [chromedriver executable] (http://chromedriver.chromium.org/), unzip the folder and move the .exe file to a folder such as C:\Windows so that it can be accessed in any folder in which you are in
+Download the [chromedriver] (http://chromedriver.chromium.org/), unzip the folder and move the .exe file to a folder such as C:\Windows so that it can be accessed in any folder in which you are in
 
 
 ## Usage
