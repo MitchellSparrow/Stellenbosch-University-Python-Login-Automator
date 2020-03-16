@@ -55,6 +55,34 @@ username = "username"  # Enter your username here
 password = "password"  # Enter your password here
 ```
 
+## Further Automation
+
+To make this process even simpler, you can create a BASH file and add this file to your path. This means that you can run this file from anywhere in the command prompt.
+
+### For example:
+
+I created a "internet.bat" file and added the location of this file to my path.
+
+The contents of this file were as follows:
+
+```bash
+@echo OFF
+
+cd C:\Path\To\Your\Python\File
+myinternet.py %1 %2 %3 %4
+cd C:\Users\"Your User Name"
+```
+
+This meant that I could run the following commands from anywhere in the command prompt which made the process quicker:
+
+```bash
+internet learn
+internet ilearn
+internet i
+internet l
+internet il
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
